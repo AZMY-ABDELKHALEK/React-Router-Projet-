@@ -1,0 +1,13 @@
+.movie-list {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    justify-content: space-around;
+    overflow-x: auto; 
+  }
+  
+  .movie-list .movie-card {
+    margin: 10px;
+    min-width: 200px; 
+  }
+  
